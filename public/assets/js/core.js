@@ -314,7 +314,7 @@ var Sukces = {
                 };
 
                 var map = new google.maps.Map(document.getElementById('google-map'), myOptions);
-                var image = pickedStyle == 'dark' ? 'assets/img/location-pin-light.png' : 'assets/img/location-pin.png';
+                var image = pickedStyle == 'dark' ? 'src/assets/img/location-pin-light.png' : 'src/assets/img/location-pin.png';
                 var myLatLng = new google.maps.LatLng(yourLatitude,yourLongitude);
                 var myLocation = new google.maps.Marker({
                     position: myLatLng,
